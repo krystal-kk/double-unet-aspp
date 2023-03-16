@@ -1,4 +1,4 @@
-# nuclei-segmentation
+# nuclei segmentation using double-unet-aspp
 
 
 ## 1. Overview
