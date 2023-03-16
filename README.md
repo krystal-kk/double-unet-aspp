@@ -1,7 +1,7 @@
 # nuclei segmentation using double-unet-aspp
 
 
-## 1. Overview
+## 1 Overview
 ### Task discription
 This project is to record the whole process of using a two-stage method based on Unet model.
 The main target is to get good semantic segmentation results of nuclei segmention.
@@ -30,7 +30,7 @@ Here are several attempts.
 - [ ] Double Unet + Attention + Dense ASPP
 - [ ] Unet + Weight maps
 
-## 2. Requirements
+## 2 Requirements
 ### Dependencies
 - pytorch 1.11.0
 - python 3.8.5
@@ -41,7 +41,7 @@ Here are several attempts.
 - MoNuSeg 2018 (https://monuseg.grand-challenge.org/Data/)
 - ER-IHC dataset (private dataset)
 
-## 3. Directory structure
+## 3 Directory structure
 ```
 |-- Code
     |-- utils
@@ -68,7 +68,7 @@ Here are several attempts.
 
 
 
-## 4. Train the model
+## 4 Train the model
 Before starting training a model, the following parameters should be specified:
 - model_name: which model will be used in this training
 - model_detail: do more discriptions about this training need to be added
@@ -79,15 +79,15 @@ To train a model
 2. run the comment: ```python train.py```
 
 
-## 5. Making predicition
+## 5 Making predicition
 To predict images
 1. modify the parameters in ```cfg.py```
 2. run the comment: ```python predict.py```
 
 
-## 6. Post-processing
+## 6 Post-processing
 
-## 7. Results
+## 7 Results
 ### get common score
 If you want to get common score, you can use ```evaluation.py```. This file includes calculating f1, iou, accuracy, precision and recall. Make sure the path in ```config.py``` is correct. And then run ```python evaluation.py```.
 
