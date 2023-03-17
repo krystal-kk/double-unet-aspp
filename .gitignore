@@ -1,1 +1,5 @@
+wandb/
+*.pyc
+*.png
+viz/
 __pycache__/

@@ -5,7 +5,7 @@ in_channel = 3
 out_channel = 1
 
 # model info
-model_name = 'UTnet'
+model_name = 'Unet'
 model_detail = '200'
 log_detail = "train"
 loss_type = 'BEC'
@@ -42,7 +42,7 @@ test_ins_masks_dir='/home/krystal/workspace/dataset/monuseg-3/test/ins_masks/256
 test_ins_npy_dir='/home/krystal/workspace/dataset/monuseg-3/test/ins_npy/256'
 visualize = True
 
-# cell_data
+# erihc_data
 cell_img_dir = '/home/krystal/workspace/dataset/er-ihc/images'
 cell_bin_dir = '/home/krystal/workspace/dataset/er-ihc/binary_masks'
 cell_ins_dir = '/home/krystal/workspace/dataset/er-ihc/ins_npy'
