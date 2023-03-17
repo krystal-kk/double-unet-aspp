@@ -169,7 +169,7 @@ def main():
         train_loss.append(train_epoch_loss)
         wandb.log({"train_loss": train_epoch_loss})
         # test
-        test_epoch_loss = run_one_epoch(model, phase='test', data_loader=test_ader, optimizer=optimizer, device=device)
+        test_epoch_loss = run_one_epoch(model, phase='test', data_loader=test_loader, optimizer=optimizer, device=device)
         test_loss.append(test_epoch_loss)
         wandb.log({"test_loss": test_epoch_loss})
 
