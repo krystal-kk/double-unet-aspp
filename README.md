@@ -91,7 +91,7 @@ To predict images
 ### get common score
 If you want to get common score, you can use ```evaluation.py```. This file includes calculating f1, iou, accuracy, precision and recall. Make sure the path in ```config.py``` is correct. And then run ```python evaluation.py```.
 
-### comparison result
+### comparison result  (ER-IHC dataset)
 |method|iou|precision|recall|f1|
 | --- | --- | --- | --- | --- |
 |Unet|0.7510|0.8443|0.8748|0.8541|                       # PPT: |0.7312|0.8459|0.8426||0.5792|
