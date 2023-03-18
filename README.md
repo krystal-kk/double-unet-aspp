@@ -65,6 +65,8 @@ Here are several attempts.
     |-- sec_pred.py
     |-- README.md
 ```
+
+Note:
 ```train.py``` and ```predict.py``` are used for one-stage methods.
 ```train_1st.py```, ```train_2nd.py```, ```predict_1st.py``` and ```predict_2nd.py``` are used for two-stage methods. We can check the performance and save weights for the first stage. If the first stage is not paid attention, you can directly use the file with '_2nd'.
 
