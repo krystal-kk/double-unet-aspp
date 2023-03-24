@@ -42,29 +42,6 @@ Here are several attempts.
 - ER-IHC dataset (private dataset)
 
 ## 3 Directory structure
-```
-|-- Code
-    |-- utils
-        |-- aji.py
-        |-- save_load_weight.py
-        |-- vis_loss.py
-    |-- dataset.py
-    |-- models.py
-        |-- models.py
-        |-- modelsaspp.py 
-    |-- cfg.py
-    |-- train.py
-    |-- predict.py
-    |-- loss.py
-    |-- metrics.py
-    |-- evalutation.py
-    |-- transform.py
-    |-- first_train.py
-    |-- first_pred.py
-    |-- sec_train.py
-    |-- sec_pred.py
-    |-- README.md
-```
 
 Note:
 ```train.py``` and ```predict.py``` are used for one-stage methods.
